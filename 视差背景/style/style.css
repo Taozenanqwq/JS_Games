@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+body .container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .container .desc {
+  color: white;
+}
+body .container #canvas1 {
+  border: 3px solid white;
+  width: 300px;
+  height: 300px;
+}
